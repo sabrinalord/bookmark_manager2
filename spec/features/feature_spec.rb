@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 feature 'BookmarkManager' do
-  scenario 'index.erb renders "Hello, world" ' do
+  scenario 'index.erb renders "Bookmark Manager" ' do
     visit('/')
-    expect(page).to have_content('Hello, world')
+    expect(page).to have_content('Bookmark Manager')
   end
 end

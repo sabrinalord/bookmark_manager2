@@ -1,24 +1,19 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    mustermann (1.1.1)
-      ruby2_keywords (~> 0.0.1)
-    rack (2.2.3)
-    rack-protection (2.1.0)
-      rack
-    ruby2_keywords (0.0.5)
-    sinatra (2.1.0)
-      mustermann (~> 1.0)
-      rack (~> 2.2)
-      rack-protection (= 2.1.0)
-      tilt (~> 2.0)
-    tilt (2.0.10)
+    docile (1.4.0)
+    simplecov (0.21.2)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.3)
 
 PLATFORMS
   arm64-darwin-20
 
 DEPENDENCIES
-  sinatra (~> 2.1)
+  simplecov
 
 BUNDLED WITH
    2.2.31
