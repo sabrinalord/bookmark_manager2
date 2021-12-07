@@ -12,7 +12,9 @@ end
 
 group :development, :test do
   gem 'capybara'
+  gem 'pg'
   gem 'rspec'
   gem 'rubocop', '1.23.0'
+  gem 'sinatra'
   gem 'webrick'
 end
