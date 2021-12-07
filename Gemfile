@@ -11,9 +11,8 @@ group :test do
 end
 
 group :development, :test do
+  gem 'capybara'
   gem 'rspec'
   gem 'rubocop', '1.23.0'
   gem 'webrick'
-  gem 'capybara'
-
 end
