@@ -1,12 +1,11 @@
 # frozen_string_literal: true
 
+require 'pg'
 # Bookmark class below
 class Bookmarks
   def self.all
-    [
-      'http://www.makersacademy.com',
-      'http://www.destroyallsoftware.com',
-      'http://www.google.com'
-    ]
+    conn = PG.connect(dbname: 'bookmark_manager')
+    result = conn.exec('SELECT * FROM bookmarks')
+    result.map { |a| a['url'] }
   end
 end
