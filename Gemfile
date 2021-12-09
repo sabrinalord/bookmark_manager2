@@ -18,3 +18,5 @@ group :development, :test do
   gem 'sinatra'
   gem 'webrick'
 end
+
+gem "sinatra-contrib", "~> 2.1"

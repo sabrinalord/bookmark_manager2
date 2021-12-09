@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/sabrinalord/Desktop/githubLocal/bookmark_manager2/spec/bookmark_spec.rb": {
+      "/Users/giorgigutsaevi/Projects/bookmark_manager2/spec/bookmark_spec.rb": {
         "lines": [
           null,
           null,
@@ -9,20 +9,7 @@
           1,
           null,
           1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
+          2,
           null,
           1,
           1,
@@ -32,6 +19,7 @@
           null,
           1,
           1,
+          null,
           1,
           1,
           1,
@@ -39,6 +27,10 @@
           1,
           null,
           1,
+          1,
+          1,
+          1,
+          1,
           null,
           null,
           null,
@@ -46,13 +38,19 @@
           1,
           1,
           1,
+          null,
+          null,
           1,
+          1,
+          1,
+          1,
+          null,
           null,
           null,
           null
         ]
       },
-      "/Users/sabrinalord/Desktop/githubLocal/bookmark_manager2/spec/features/adding_bookmarks_spec.rb": {
+      "/Users/giorgigutsaevi/Projects/bookmark_manager2/spec/features/adding_bookmarks_spec.rb": {
         "lines": [
           null,
           null,
@@ -64,12 +62,12 @@
           1,
           1,
           1,
-          0,
+          1,
           null,
           null
         ]
       },
-      "/Users/sabrinalord/Desktop/githubLocal/bookmark_manager2/spec/features/viewing_bookmarks_spec.rb": {
+      "/Users/giorgigutsaevi/Projects/bookmark_manager2/spec/features/viewing_bookmarks_spec.rb": {
         "lines": [
           null,
           null,
@@ -83,14 +81,14 @@
           null,
           1,
           null,
-          0,
-          0,
+          1,
+          1,
           0,
           null,
           null
         ]
       }
     },
-    "timestamp": 1639054931
+    "timestamp": 1639066537
   }
 }
