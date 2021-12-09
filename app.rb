@@ -9,14 +9,15 @@ class BookmarkManager < Sinatra::Base
     register Sinatra::Reloader
   end
 
-  get '/' do
-    erb :index
-  end
+  # get '/' do
+  #   redirect '/bookmarks'
+  # end
 
   get '/bookmarks' do
     @bookmarks = Bookmarks.all
     erb :'bookmarks/index'
   end
+  
 
   get '/bookmarks/new' do
     erb :"bookmarks/new"
