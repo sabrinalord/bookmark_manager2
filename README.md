@@ -1,41 +1,40 @@
-Bookmark Manager User Stories:
-1st User Story.
-As a user;
-So I can see all my saved bookmarks;
-I want the program to show me a list of saved bookmarks
+# Bookmark Manager
 
-2nd User Story:
-As a user;
-So I can add a bookmark;
-I want to the program to add a bookmark to my saved list of bookmarks;
+## Specifications
 
-3rd User Story:
-As a user;
-So I can delete a bookmark;
-I want to the program to delete a bookmark from my saved list of bookmarks;
+* Show a list of bookmarks ✅
+* Add new bookmarks
+* Delete bookmarks
+* Update bookmarks
+* Comment on bookmarks
+* Tag bookmarks into categories
+* Filter bookmarks by tag
+* Users are restricted to manage only their own bookmarks
 
-4th User Story:
-As a user
-So I can update a bookmark
-I want to the program to update a bookmark from the list of saved bookmarks
+## User Stories 
+* As a user, so I can quickly visit a website, I would like to see a list of bookmarks
+* As a user, I would like to add the site's address and title to bookmark manager.
+* As a user, so I can remove sites I'm no longer interested in, I would like to remove bookmarks. 
+* As a user, so I can keep my bookmarks organised, I would like to tag my bookmarks into categories. 
+* As a user, so I can quickly find the websites I want, I would like to filter my bookmarks by category
+* As a user, so I can stop other people from deleting my bookmarks, I would like to be the only one who can manage my bookmarks. 
 
-5th User Story:
-As a user;
-So I can comment on my bookmark
-I want to the program to have the feature of commenting on my list of bookmarks
+## Domain Model
 
-6th User Story:
-As a user;
-So I can categorise my bookmarks
-I want to the program to have a tag feature on my list of bookmarks
+# ![Domain Model](https://github.com/sabrinalord/bookmark_manager/blob/main/screenshot/model_shows_bookmark_list.png)
 
-7th User Story:
-As a user;
-So I can easily find my bookmarks
-I want to the program to filter my list of bookmarks based on a tag
+## Database Set up
 
+### Main Database
 
-8th User Story:
-As a user
-So I don’t mess around with other people’s bookmarks
-I want to the program to only let me manage my own bookmarks
+1. Connect to psql
+2. Create the database using psql command CREATE DATABASE bookmark_manager
+3. Connect to the database psql command \c bookmark_manager
+4. Run the query saved in the file 01_create_bookmarks_table.sql
+
+### Test Database
+
+1. Connect to psql
+2. Create the test database using psql command CREATE DATABASE bookmark_manager_test
+3. Connect to the database psql command \c bookmark_manager_test
+4. Run the query saved in the file 01_create_bookmarks_table.sql
