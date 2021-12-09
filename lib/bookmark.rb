@@ -2,7 +2,7 @@
 
 require 'pg'
 # Bookmark class below
-class Bookmarks
+class Bookmark
   def self.all
     connection = if ENV['ENVIRONMENT'] == 'test'
                    PG.connect(dbname: 'bookmark_manager_test')
@@ -11,7 +11,7 @@ class Bookmarks
                  end
     # title_result = connection.exec('SELECT title FROM bookmarks')
     result = connection.exec('SELECT * FROM bookmarks')
-    result.map { |bookmarks| bookmarks['url'] }
+    result.map { |bookmark| bookmark['url'] }
   end
 
   def self.create(url: , title: 'site')
